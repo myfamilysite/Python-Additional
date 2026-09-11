@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 square = lambda x: x**2
 print(square(5))
 
@@ -37,9 +31,6 @@ print(list(long_words))
 students = [('Alice', 88), ('Bob', 72), ('Charlie', 95)]
 sorted_students = sorted(students, key=lambda x:x[1])
 print(sorted_students)
-
-
-# In[ ]:
 
 
 

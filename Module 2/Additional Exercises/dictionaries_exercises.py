@@ -20,7 +20,7 @@ Tokyo
 
 # TODO print Japan's capital
 
-"""## Problem 2
+## Problem 2
 
 You're managing the menu for a small café. Starting with the menu below:
 
@@ -28,7 +28,6 @@ You're managing the menu for a small café. Starting with the menu below:
 - Remove "drip coffee" — it's been discontinued
 
 Print the updated menu.
-"""
 
 menu = {
     "espresso": 3.00,
@@ -41,7 +40,7 @@ menu = {
 
 # TODO remove drip coffee
 
-"""## Problem 3
+## Problem 3
 
 You have a dictionary of students and their test scores.
 
