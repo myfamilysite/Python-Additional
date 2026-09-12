@@ -11,10 +11,7 @@ Create a dictionary called `capitals` that maps three countries to their capital
 Then print the capital of Japan using its country name as the key.
 
 **Sample output**
-```
 Tokyo
-```
-"""
 
 # TODO create the capitals dictionary
 
@@ -50,7 +47,6 @@ Use dictionary methods to:
 2. Use `items()` to print only the students who scored above 80
 
 **Sample output**
-```
 Students:
 Alice
 Bob
@@ -62,8 +58,6 @@ Students who scored above 80:
 Alice: 92
 Carol: 85
 Eve: 95
-```
-"""
 
 scores = {
     "Alice": 92,
