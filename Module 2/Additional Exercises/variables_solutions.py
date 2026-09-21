@@ -1,66 +1,22 @@
 # Variables - Solutions
 
-## Problem 1
-
-Create two variables: one called `plant_name` that stores a string (the name of a plant), and one called `watering_days` that stores an integer (how many days between waterings).
-
-Assign values of your choice. Then use `print()` to display a single line that uses both variables, for example showing the plant name and how often you water it.
-
-**Sample output** (your plant name and number can differ):
-```
-My plant is a Monstera and I water it every 7 days.
-```
-"""
-
-# TODO: Create plant_name and watering_days, then print one line using both
-
-"""### Solution"""
+# Problem 1 Solution
 
 plant_name = "Monstera"
 watering_days = 7
 print("My plant is a", plant_name, "and I water it every", watering_days, "days.")
 
-"""## Problem 2
+# Problem 2 Solution
 
-You're keeping a watering log for your Monstera. Use a variable called `water_oz` to track the ounces in your watering can. Each time you reassign it, build the new value from the **current** `water_oz` — don't calculate the total separately and hard-code it.
-
-1. Set `water_oz` to `64`.
-2. Print `water_oz`.
-3. You water the Monstera and use **20** ounces. Reassign `water_oz` to reflect the new amount.
-4. Print `water_oz`.
-5. You refill the can from the tap and add **32** ounces. Reassign `water_oz` again.
-6. Print `water_oz`.
-
-**Sample output**
-```
-64
-44
-76
-```
-"""
-
-# TODO: Set water_oz to 64, print; subtract 20 with reassignment, print; add 32 with reassignment, print
-
-"""### Solution"""
-
-water_oz = 64
+water_ml = 64
+print(water_ml)
+water_ml = water_ml - 20
 print(water_oz)
-water_oz = water_oz - 20
-print(water_oz)
-water_oz = water_oz + 32
-print(water_oz)
+water_ml = water_ml + 32
+print(water_ml)
 
-"""## Problem 3
+# Problem 3 Solution
 
-Update the following code so it runs without errors. The variable names are invalid — fix them using `snake_case` and the naming rules from the video.
-"""
-
-2nd_plant = "Cactus"
-plant type = "Succulent"
-print(2nd_plant, plant type)
-
-"""### Solution"""
-
-second_plant = "Cactus"
-plant_type = "Succulent"
-print(second_plant, plant_type)
+secondPlant = "Cactus"
+plantType = "Succulent"
+print(secondPlant, plantType)

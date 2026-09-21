@@ -1,12 +1,20 @@
-operators = ("+, -, *, /")
+# operators = ("+, -, *, /")
 
-print ("This is a calculator that you can use for ") 
-print ("adding, subtracting, multiplying or dividing 2 numbers.")
+print ("*" * 65)
 
-operator = input("\nPlease enter the operator that you would like to use. Use only +, -, * or /.")
+print ('''\nThis is a simple calculator that you can use for adding, subtracting,
+multiplying or dividing 2 numbers. For addition use the '+' key,
+for subtraction use the '-' key, for multiplication use the '*' key 
+and for division use the '/' key on the keyboard.''')
 
-num1 = float(input("\nPlease enter the 1st number: "))
-num2 = float(input("\nPlease enter the 2nd number: "))
+print()
+print ("*" * 65)
+
+operator = input("\nPlease enter the operator that you would like to use and press the 'Enter' key. Use only +, -, * or /  : ")
+
+num1 = float(input("\nPlease enter the 1st number and press the 'Enter' key: "))
+
+num2 = float(input("\nPlease enter the 2nd number and press the 'Enter' key: "))
 
 add = num1 + num2
 subtract = num1 - num2

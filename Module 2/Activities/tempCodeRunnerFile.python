@@ -1,0 +1,4 @@
+from Encapsulation_Car_Example import Car
+
+my_car = Car()
+my_car.accelerate()  # Output: Vroom! Current speed: 10 mph

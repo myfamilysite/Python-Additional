@@ -2,7 +2,7 @@ import math
 
 # calculate the area of a circle. The formula for the area of a circle is A=πr²
 
-radius = int(input("Enter the value for the radius of the circle: "))
+radius = float(input("Enter the value for the radius of the circle: "))
 
 unit = input("Enter the unit of measurement: ") 
 
