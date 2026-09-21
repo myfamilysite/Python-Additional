@@ -11,7 +11,7 @@ print("My plant is a", plant_name, "and I water it every", watering_days, "days.
 water_ml = 64
 print(water_ml)
 water_ml = water_ml - 20
-print(water_oz)
+print(water_ml)
 water_ml = water_ml + 32
 print(water_ml)
 
