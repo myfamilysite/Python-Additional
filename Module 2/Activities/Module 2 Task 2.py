@@ -12,9 +12,9 @@ print ("*" * 65)
 
 operator = input("\nPlease enter the operator that you would like to use and press the 'Enter' key. Use only +, -, * or /  : ")
 
-num1 = float(input("\nPlease enter the 1st number and press the 'Enter' key: "))
+num1 = float(input("\nPlease enter the 1st number and press the 'Enter' key: ").strip())
 
-num2 = float(input("\nPlease enter the 2nd number and press the 'Enter' key: "))
+num2 = float(input("\nPlease enter the 2nd number and press the 'Enter' key: ").strip())
 
 add = num1 + num2
 subtract = num1 - num2

@@ -1,0 +1,7 @@
+import pandas as pd
+
+# Use a raw string (r"...") so backslashes aren't treated as escape characters
+df = pd.read_excel(r"C:\Users\202200036\Python\book1.xlsx")
+
+# Print the loaded DataFrame
+print(df)
