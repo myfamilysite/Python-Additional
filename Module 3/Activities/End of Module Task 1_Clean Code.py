@@ -15,7 +15,7 @@ student = input("Please enter the student's name and surname: ")
 
 #Use a for loop to get the 4 test results and append them to the results list
 for i in range(1, 5):
-    marks_input = float(input("Please enter the student's mark for Test 1: ").replace(',', '.'))
+    marks_input = float(input(f"Please enter the student's mark for Test {i}: ").replace(',', '.'))
     results.append(marks_input)
 
 #Calculate the term average. Use a f string to add the % symbol.

@@ -11,7 +11,7 @@ subject = input("Please enter the subject: ")
 student = input("Please enter the student's name and surname: ")
 
 for i in range(1, 5):
-    marks_input = float(input("Please enter the student's mark for Test 1: ").replace(',', '.'))
+    marks_input = float(input(f"Please enter the student's mark for Test {i}: ").replace(',', '.'))
     results.append(marks_input)
 #test1_marks = float(input("Please enter the student's mark for Test 1: ").replace(',', '.'))
 #results.append(test1_marks)
