@@ -1,23 +1,27 @@
 class Waiter:
-    def __init__(self, name, tables, attitude):
-        self._name = name
-        self._tables = tables
-        self._attitude = attitude
+    def __init__(self, name, table, gender):
+        self.name = name
+        self.table = table
+        self.gender = gender
         
-    def orders (self):
-        print (f"{self._name} is taking orders on tables {self_.tables}")
+    def take_orders (self):
+        return (f"{self.name} is taking orders on table {self.table}")
         
-    def payments (self):
-        print (f"{self._name} is handling payments on tables {self._tables}")
+    def take_payments (self):
+        return (f"{self.name} is handling payments on table {self.table}")
         
 
-waiter1 = Waiter("Brian", [4,5], "friendly")
-waiter2 = Waiter("Joe",[1,2,7], "grumpy")
+waiter1 = Waiter("Brian", 1, "male")
+waiter2 = Waiter("Sindi", 2, "female")
 
-(waiter1.orders())
+print (waiter1.name)
+print (waiter2.gender)
 
-(waiter2.attitude)
+print (waiter1.take_orders())
+print (waiter2.take_payments())
 
-(waiter2.payments())
+
+
+
     
     
