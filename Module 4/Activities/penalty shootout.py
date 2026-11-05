@@ -37,16 +37,16 @@ def penalty_shootout():
                 score += 1
 
     # Final Results
-    print("---------------------------------")
+    print("----------------------------------------")
     print(f"FINAL SCORE: You scored {score} out of {total_rounds} goals!")
-    print("---------------------------------")
+    print("----------------------------------------")
 
 # Run the game
 if __name__ == "__main__":
     while True:
         penalty_shootout()
         restart = input("\nDo you want to play again? (y/n): ").strip().lower()
-        if restart != 'y':
+        if restart == 'n':
             print("Thanks for playing!")
             break
 
