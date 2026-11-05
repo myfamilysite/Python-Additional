@@ -30,7 +30,7 @@ def penalty_shootout():
             # Goalkeeper picks a random direction
             keeper_direction = random.choice(options)
             
-            if player_shot == keeper_direction:
+            if keeper_direction == player_shot:
                 print(f"❌SAVED! The keeper dived {keeper_direction} and blocked your shot.\n")
             else:
                 print(f"👏🏽GOAL! The keeper dived {keeper_direction}, you scored!\n")
