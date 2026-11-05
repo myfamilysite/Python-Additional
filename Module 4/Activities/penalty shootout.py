@@ -8,7 +8,7 @@ def penalty_shootout():
     #Instructions
     print("*" * 50)
     print("⚽ PENALTY SHOOTOUT: STRIKER MODE ⚽\n")
-    print(f"Type TL, BL, M, TR or BR to take your shot.\n")
+    print(f"Type TL, BL, MD, TR or BR to take your shot.\n")
     print (f"TL = Top-Left")
     print (f"BL = Bottom-Left")
     print (f"MD = Middle")
