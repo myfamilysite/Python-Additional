@@ -1,0 +1,22 @@
+# 1. Write the books to the file
+try:
+    with open("books.txt", "w") as file:
+        file.write("The Hunger Games\n")
+        file.write("The Great Gatsby\n")
+        file.write("The Long Walk to Freedom\n")
+except OSError as e:
+    print(f"Error writing to file: {e}")
+
+# 2. Read and print the books in VS Code
+try:
+    with open("books.txt", "r") as file:
+        content = file.read()
+        print("--- Books in File ---")
+        print(content)
+except FileNotFoundError:
+    print("File not found.")
+
+
+
+
+
